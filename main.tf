@@ -8,6 +8,6 @@ resource "aws_instance" "one" {
   key_name               = "Rohitkeypair"
   
   tags = {
-    Name = "My_Instance"
+    Name = "hcp-instance"
   }
 }
